@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-white border-bottom ">
+        <div class="container mt-4">
+          <a id="site" class="navbar-brand" href="index.html">SOLUTION.COM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a id="hme" class="nav-link home" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a id="option" class="nav-link" href="index.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a id="option" class="nav-link" href="index.html">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a id="option" class="nav-link" href="index.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a id="option" class="nav-link" href="index.html">CLIENTS</a>
+              </li>
+            </ul>
+            <button id="cln" class="button ms-auto rounded-pill">CALL NOW</button>
+          </div>
+        </div>
+    </nav>
+
+
+
+
+    <section class="section row">
+        <div class="col second">
+            <div id="mySidebar" class="sidebar">
+               <a href="javascript:void(0)" id="close" class="closebtn" onclick="closeNav()">×</a>
+               <button class="common" id="energetic">Energetic</button>
+               <button class="common mt-4" id="dynamic">Dynamic</button>
+               <button class="common mt-4" id="nostalgic">Nostalgic</button>
+               <button class="common mt-4" id="fashionable">Fashionable</button>
+               <button class="common mt-4" id="contemparory">Contemparory</button>
+               <button class="common mt-4" id="vivid">Vivid</button>
+               <button class="common mt-4" id="laid">Laid-back</button>
+               <button class="common mt-4" id="natural">Natural</button>
+            </div>
+            <div id="main">
+               <button id="cst" class="openbtn rounded-pill" onclick="openNav()">☰ Customize</button> 
+            </div>
+            <br>
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+        </div>
+
+
+        <div class="col sub-section lh-1 text-wrap">
+            <span id="titles" class="heading text-wrap">Bitcoin 
+                <br>
+                 Definition
+            </span>
+            <p id="para" class="mt-5 lh-base fst-italic">Bitcoin, the largest cryptocurrency by market cap, is a risky investment with high volatility. It should only be considered if you have a high risk tolerance, are in a strong financial position and can afford to lose any money you invest in it.
+            </p>
+            <button id="lmr" class="btn rounded-pill mt-4">LEARN MORE</button>
+        </div>
+    </section>
+
+
+
+
+
+    <footer id="foot" class="row   footer mt-5 border-top ">
+        <div id="sub" class="col-11 text-wrap sub-footer mt-4">
+            <span class="fst-italic  contact ">CONTACTS</span>
+            <br>
+            <span class="solution fw-bold">Let’s Work Together</span>
+            <br>
+            <br>
+            <span class="address fst-italic">500 Terry Francois St. San Francisco.</span>
+            <br>
+            <br>
+            <span class="mail">info@gmail.com</span>
+            <br>
+            <br>
+            <span class="number">Tel: 1234567890</span>
+            <br>
+            <a href="https://www.linkedin.com/in/sajadh-s-916964215/"><img class="img mt-1" src="images/link.png" width="30px" height="30px"></a>
+            <a href="https://github.com/SAJUSAJADH"><img class="mt-1" src="images/GitHub-removebg-preview.png" width="38px" height="38px"></a>
+        </div>
+        <div class="col-1"></div>
+     </footer>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="index.js" defer></script>
+</body>
+</html>

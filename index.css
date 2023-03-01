@@ -1,0 +1,210 @@
+
+.navbar-nav{
+    margin-left: 350px;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color: rgb(158, 63, 253);
+}
+.navbar-brand{
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 26px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+.home{
+    color: rgb(158, 63, 253);
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    } 
+}
+.button{
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: rgb(158, 63, 253);
+    color:#fff;
+}
+.button:hover{
+    z-index: 900;
+    animation: bounce 1s;
+}
+.heading{
+    font-size: 86px;
+    font-weight: 700;
+    font-style: italic;
+}
+.sub-section{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.btn{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(158, 63, 253);
+    color:#fff;
+}
+.btn:hover{
+    color: #fff;
+    background-color: rgb(158, 63, 253);
+    z-index: 900;
+    animation: bounce 1s;
+}
+.footer{
+    background-color: rgb(158, 63, 253);
+    color:#fff;
+}.contact, .solution, .address, .mail, .number, .img, .img2{
+    margin-left: 100px;
+}
+.solution{
+    font-size: xx-large;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(158, 63, 253);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .sidebar a:hover {
+    color: gold;
+  }
+  .sidebar button {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar button:hover {
+    color: gold;
+  }
+  .common{
+    width:200px;
+    background:transparent;
+    border: none;
+    height:50px;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(158, 63, 253);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: blueviolet;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  #myChart{
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+@media(max-width:992px){
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .button{
+        margin-left: auto;
+    }
+    .sub-section{
+        text-align: center;
+        margin-top: 50px;
+    }
+    #myChart{
+        margin-left: 0px;
+    }
+    .heading{
+        font-size: 32px;
+    }
+    .solution{
+        font-size: large;
+    }
+    .address{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .sub-section{
+        margin-left: 30px;
+    }
+    .sub-footer{
+        text-align: center;
+        max-width:300px;
+    }
+    .solution{
+        margin-left:100px;
+        font-size: medium;
+    }
+    .sidebar button{
+        font-size: 18px;
+        width:100px;
+    }
+}
+@media(min-width:992px){
+    .row{
+        width:1530px;
+    }
+}
+#energetic{
+    font-family: Times New Roman;
+}
+#dynamic{
+    font-family: Courier New;
+}
+#nostalgic{
+    font-family: Madefor,Helvetica Neue,Helvetica;
+}
+#fashionable{
+    font-family: Brush Script MT;
+}
+#contemparory{
+    font-family: Verdana;
+}
+#vivid{
+    font-family: Garamond;
+}
+#laid{
+    font-family: Lucida Handwriting;
+}
+#natural{
+    font-family: Sofia;
+}
